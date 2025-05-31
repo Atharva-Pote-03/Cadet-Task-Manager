@@ -1,0 +1,47 @@
+Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+dist/
+build/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# React (frontend)
+*.cache
+.cache/
+public/static/
+public/build/
+*.tgz
+
+# MongoDB dumps
+dump/
+
+# Coverage reports
+coverage/
+
+# PM2 / process manager
+pids/
+*.pid
+*.seed
+
+# Optional: database config or JSON files with credentials
+*.local.json
